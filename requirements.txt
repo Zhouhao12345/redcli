@@ -1,2 +1,4 @@
 Pygments==2.5.1
 prompt-toolkit==3.0.1
+click==7.0
+redis==3.3.11
