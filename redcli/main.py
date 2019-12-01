@@ -20,8 +20,8 @@ from prompt_toolkit.styles import Style
 from prompt_toolkit.completion import FuzzyWordCompleter, FuzzyCompleter, Completer, WordCompleter, CompleteEvent
 from prompt_toolkit import PromptSession
 
-from infrastructuration.print_components.formatted_style_text import FormattedStyleTextPrintComponents
-from domain.adapters.redis import RedisAdapter
+from .infrastructuration.print_components.formatted_style_text import FormattedStyleTextPrintComponents
+from .domain.adapters.redis import RedisAdapter
 globals_style_dict =  {
     'synax': "#ffffff bold",
     'host':   '#888888 bold',

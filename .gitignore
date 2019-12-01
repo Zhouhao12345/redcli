@@ -2,3 +2,6 @@ __pycache__
 .vscode
 .python-version
 *.pyc
+dist
+build
+*.egg-info

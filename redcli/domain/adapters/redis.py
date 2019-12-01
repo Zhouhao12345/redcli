@@ -1,4 +1,4 @@
-from domain.services.redis import RedisService
+from ..services.redis import RedisService
 
 class RedisAdapter(object):
 

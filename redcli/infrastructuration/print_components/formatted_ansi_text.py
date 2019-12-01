@@ -3,8 +3,8 @@ from prompt_toolkit import (
     print_formatted_text,
 )
 
-from infrastructuration.print_components.constant import PrintType
-from infrastructuration.print_components.base import BasePrintComponents
+from .constant import PrintType
+from .base import BasePrintComponents
 
 class FormattedANSITextPrintComponents(BasePrintComponents):
 

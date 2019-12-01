@@ -1,7 +1,7 @@
 from typing import List
 
-from domain.entity.redis import RedisEntity
-from domain.entity.operations import OperationEntity
+from ..entity.redis import RedisEntity
+from ..entity.operations import OperationEntity
 
 class RedisService(object):
 
