@@ -12,4 +12,4 @@ pip install -r requirements.txt
 ####  --help                  Show this message and exit
 ***
 ## Example:
-#### python main.py -P 6380 -p Hello123 -H 192.168.1.1S
+#### redcli -P 6380 -p Hello123 -H 192.168.1.1S
