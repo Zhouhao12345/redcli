@@ -10,6 +10,7 @@ from prompt_toolkit.formatted_text import (
 from .constant import PrintType
 from .base import BasePrintComponents
 
+
 class FormattedStyleTextPrintComponents(BasePrintComponents):
 
     PRINT_TYPE = PrintType.FORMATTED_TEXT_STYLE_TEXT
@@ -38,7 +39,6 @@ class FormattedStyleTextPrintComponents(BasePrintComponents):
         """
         super(FormattedStyleTextPrintComponents, self).wrapper_style(
             style_dict)
-
 
     def build_formatted_text(self) -> FormattedText:
         return FormattedText(self.context)
