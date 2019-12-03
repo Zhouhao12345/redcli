@@ -1,7 +1,7 @@
 # simple redis client tool Demo
 
 ## Installation
-pip install -r requirements.txt
+pip install -i https://pypi.python.org/simple redcli
 ***
 ## Usage
 ### Options:
