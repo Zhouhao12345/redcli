@@ -1,5 +1,6 @@
 from typing import Union, Callable, List, Optional, Dict
 
+import os
 from pprint import pformat
 import click
 import redis
@@ -17,6 +18,8 @@ from prompt_toolkit.formatted_text import PygmentsTokens
 from prompt_toolkit import print_formatted_text
 
 from .domain.adapters.redis import RedisAdapter
+
+PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 
 @click.command()
