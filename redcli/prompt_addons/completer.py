@@ -26,8 +26,9 @@ class CustomWordCompleter(WordCompleter):
         if len(texts) >= 3:
             logger.info(f"Debug Log for Complete: {texts}")
             result_keys = redis_client.execute_method(
-                "scan", match=f"*{texts}*", count=10)
-            self.words = set(self.words) | set(result_keys[1])
+                "scan_iter", match=f"*{texts}*", count=10)
+            result_keys_list = [_ for _ in result_keys]
+            self.words = set(self.words) | set(result_keys_list)
         for word in self.words:
             yield Completion(
                 text=word,
