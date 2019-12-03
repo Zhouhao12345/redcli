@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="redcli",
-    version="1.2.0",
+    version="1.3.0",
     author="zhouhao",
     python_requires='>=3.7.2',
     author_email="zhouhao19931002@hotmail.com",
