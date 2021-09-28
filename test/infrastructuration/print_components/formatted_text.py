@@ -2,8 +2,8 @@ import unittest
 
 from pygments.token import Token
 
-from infrastructuration.print_components.constant import PrintType
-from infrastructuration.print_components.base import (
+from redcli.infrastructuration.print_components.constant import PrintType
+from redcli.infrastructuration.print_components.base import (
     BasePrintComponents,
     FormattedTextFactory,
 )
